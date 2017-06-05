@@ -1,0 +1,32 @@
+h1 {
+  font-family: 'Stalemate';
+  font-size: 8vmin;
+}
+h2 {
+  font-family: 'Stalemate';
+  font-size: 7vmin;
+}
+.left {
+  width: 25vmin;
+  position: absolute;
+  left: -6vmin;
+  top: -6vmin;
+}
+.right {
+  width: 25vmin;
+  position: absolute;
+  right: -6vmin;
+  bottom: -6vmin;
+}
+
+.buttons {
+  margin-top: 10%;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
